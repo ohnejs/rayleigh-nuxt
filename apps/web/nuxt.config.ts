@@ -5,8 +5,12 @@ export default defineNuxtConfig({
   // `@ohnejs/nuxt` reads each page from the CMS, fills the `<head>` and joins the live preview.
   // See https://ohne.dev/docs/cms/frameworks#nuxt
   modules: ['@ohnejs/nuxt'],
-  // Your API in development. `NUXT_OHNE_API` replaces it when the server starts.
-  ohne: { api: 'http://localhost:9001' },
+  ohne: {
+    // Your API in development. `NUXT_OHNE_API` replaces it when the server starts.
+    api: 'http://localhost:9001',
+    // The contact form's spam check reads this header, so your website passes it on to your API.
+    headers: ['recaptcha-token'],
+  },
   css: ['~/assets/styles/site.css'],
   app: {
     head: {
