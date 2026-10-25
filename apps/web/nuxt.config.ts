@@ -1,3 +1,5 @@
+import { themeScript } from './app/utils/theme';
+
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-01',
   // `@ohnejs/nuxt` reads each page from the CMS, fills the `<head>` and joins the live preview.
@@ -29,6 +31,8 @@ export default defineNuxtConfig({
           crossorigin: '',
         },
       ],
+      // Picks the light or dark theme while the page loads, before anything shows.
+      script: [{ innerHTML: themeScript }],
     },
   },
 });
