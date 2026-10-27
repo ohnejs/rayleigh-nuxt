@@ -19,8 +19,8 @@ catalogs:
       specifier: 4.6.2
       version: 4.6.2
     ohnejs:
-      specifier: 0.5.0
-      version: 0.5.0
+      specifier: 0.5.1
+      version: 0.5.1
     typescript:
       specifier: 6.0.3
       version: 6.0.3
@@ -49,10 +49,10 @@ importers:
     dependencies:
       '@ohnejs/cms':
         specifier: 'catalog:'
-        version: 0.4.0(ohnejs@0.5.0)
+        version: 0.4.0(ohnejs@0.5.1)
       ohnejs:
         specifier: 'catalog:'
-        version: 0.5.0
+        version: 0.5.1
     devDependencies:
       '@types/node':
         specifier: 26.0.0
@@ -2537,8 +2537,8 @@ packages:
   ohash@2.0.12:
     resolution: {integrity: sha512-65S/5gk9YSsaRjcyf7Nfa6h/d3E8/1gslpXfI4W7Dxn/oap8IKRuNT5VXkLQ1YFKIEg4apRY4Pj6aiwFzrDdmw==}
 
-  ohnejs@0.5.0:
-    resolution: {integrity: sha512-RiIvkMpo7p4r4FwQXK41O1LNyIRIZ/htoFrSCnKgKsvK7k8ZVTlQDJNWhsCx3jP7+9pg14kOz6mUpdcovx+ZRA==}
+  ohnejs@0.5.1:
+    resolution: {integrity: sha512-e36DjG8jnphUHQ0lJqwu7n+8FcYzcNSk7LXxSkuvEBVE9OgEHrdFycyblENLZhryhyW+eqLdXM6QBirBOoEqiQ==}
     engines: {node: '>=26.0.0'}
     hasBin: true
 
@@ -4213,9 +4213,9 @@ snapshots:
 
   '@ohnejs/client@0.3.0': {}
 
-  '@ohnejs/cms@0.4.0(ohnejs@0.5.0)':
+  '@ohnejs/cms@0.4.0(ohnejs@0.5.1)':
     dependencies:
-      ohnejs: 0.5.0
+      ohnejs: 0.5.1
 
   '@ohnejs/nuxt@0.1.0(@ohnejs/client@0.3.0)(nuxt@4.6.2(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@oxc-project/types@0.155.0)(@types/node@26.0.0)(@vue/compiler-sfc@3.5.44)(acorn@8.19.0)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(lightningcss@1.33.0)(mlly@1.8.2)(oxlint@1.70.0)(rolldown@1.2.15)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.15)(rollup@4.65.1))(rollup@4.65.1)(srvx@1.0.7)(terser@5.51.2)(typescript@6.0.3)(vite@8.3.5(@types/node@26.0.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue-tsc@3.3.13(typescript@6.0.3)))(vue@3.5.44(typescript@6.0.3))':
     dependencies:
@@ -6024,7 +6024,7 @@ snapshots:
 
   ohash@2.0.12: {}
 
-  ohnejs@0.5.0: {}
+  ohnejs@0.5.1: {}
 
   on-change@6.0.2: {}
 
