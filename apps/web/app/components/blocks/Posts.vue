@@ -23,8 +23,9 @@ const posts = await useOhneList('Posts', () => ({
 
 // A page past the last one, or a page number that is not one, answers `404`.
 // The first load throws on the server, and a later move in the browser shows the error page.
+// Fatal only in the browser: on the server a fatal error is also logged as a failure.
 const missing = computed(() => !valid.value || page.value > posts.value.lastPage);
-const notFound = { statusCode: 404, statusMessage: 'Page not found', fatal: true };
+const notFound = { statusCode: 404, statusMessage: 'Page not found', fatal: import.meta.client };
 
 if (missing.value) throw createError(notFound);
 
