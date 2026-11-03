@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     '@ohnejs/client':
-      specifier: 0.3.0
-      version: 0.3.0
+      specifier: 0.4.0
+      version: 0.4.0
     '@ohnejs/cms':
       specifier: 0.5.0
       version: 0.5.0
@@ -65,10 +65,10 @@ importers:
     dependencies:
       '@ohnejs/client':
         specifier: 'catalog:'
-        version: 0.3.0
+        version: 0.4.0
       '@ohnejs/nuxt':
         specifier: 'catalog:'
-        version: 0.1.1(@ohnejs/client@0.3.0)(nuxt@4.6.2(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@oxc-project/types@0.155.0)(@types/node@26.0.0)(@vue/compiler-sfc@3.5.44)(acorn@8.19.0)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(lightningcss@1.33.0)(mlly@1.8.2)(oxlint@1.89.0)(rolldown@1.2.15)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.15)(rollup@4.65.1))(rollup@4.65.1)(srvx@1.0.7)(terser@5.51.2)(typescript@6.0.3)(vite@8.3.5(@types/node@26.0.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue-tsc@3.3.13(typescript@6.0.3)))(vue@3.5.44(typescript@6.0.3))
+        version: 0.1.1(@ohnejs/client@0.4.0)(nuxt@4.6.2(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@oxc-project/types@0.155.0)(@types/node@26.0.0)(@vue/compiler-sfc@3.5.44)(acorn@8.19.0)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(lightningcss@1.33.0)(mlly@1.8.2)(oxlint@1.89.0)(rolldown@1.2.15)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.15)(rollup@4.65.1))(rollup@4.65.1)(srvx@1.0.7)(terser@5.51.2)(typescript@6.0.3)(vite@8.3.5(@types/node@26.0.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue-tsc@3.3.13(typescript@6.0.3)))(vue@3.5.44(typescript@6.0.3))
       nuxt:
         specifier: 'catalog:'
         version: 4.6.2(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@oxc-project/types@0.155.0)(@types/node@26.0.0)(@vue/compiler-sfc@3.5.44)(acorn@8.19.0)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(lightningcss@1.33.0)(mlly@1.8.2)(oxlint@1.89.0)(rolldown@1.2.15)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.15)(rollup@4.65.1))(rollup@4.65.1)(srvx@1.0.7)(terser@5.51.2)(typescript@6.0.3)(vite@8.3.5(@types/node@26.0.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue-tsc@3.3.13(typescript@6.0.3))
@@ -588,8 +588,8 @@ packages:
       nuxt: ^4.6.2
       vite: ^8.3.4
 
-  '@ohnejs/client@0.3.0':
-    resolution: {integrity: sha512-f9xKnDVbw/9OvH7e0Iizfy1zpnNDiBxypSpRHJ6/XENi7yhVFDYe93FsgS54u4kJ7KGV7eH/kZ8LqPo5DQDcSQ==}
+  '@ohnejs/client@0.4.0':
+    resolution: {integrity: sha512-4vgN1PAKpk3nps+uVuRfPvfYg95x4Mq7rQZG/DTHqcWNPjvDB6OBo1Lg8BDfLenjY66csMxGug2Gh+vxPynnRA==}
     engines: {node: '>=20.0.0'}
 
   '@ohnejs/cms@0.5.0':
@@ -4214,15 +4214,15 @@ snapshots:
       - rolldown
       - unplugin
 
-  '@ohnejs/client@0.3.0': {}
+  '@ohnejs/client@0.4.0': {}
 
   '@ohnejs/cms@0.5.0(ohnejs@0.6.0)':
     dependencies:
       ohnejs: 0.6.0
 
-  '@ohnejs/nuxt@0.1.1(@ohnejs/client@0.3.0)(nuxt@4.6.2(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@oxc-project/types@0.155.0)(@types/node@26.0.0)(@vue/compiler-sfc@3.5.44)(acorn@8.19.0)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(lightningcss@1.33.0)(mlly@1.8.2)(oxlint@1.89.0)(rolldown@1.2.15)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.15)(rollup@4.65.1))(rollup@4.65.1)(srvx@1.0.7)(terser@5.51.2)(typescript@6.0.3)(vite@8.3.5(@types/node@26.0.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue-tsc@3.3.13(typescript@6.0.3)))(vue@3.5.44(typescript@6.0.3))':
+  '@ohnejs/nuxt@0.1.1(@ohnejs/client@0.4.0)(nuxt@4.6.2(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@oxc-project/types@0.155.0)(@types/node@26.0.0)(@vue/compiler-sfc@3.5.44)(acorn@8.19.0)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(lightningcss@1.33.0)(mlly@1.8.2)(oxlint@1.89.0)(rolldown@1.2.15)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.15)(rollup@4.65.1))(rollup@4.65.1)(srvx@1.0.7)(terser@5.51.2)(typescript@6.0.3)(vite@8.3.5(@types/node@26.0.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue-tsc@3.3.13(typescript@6.0.3)))(vue@3.5.44(typescript@6.0.3))':
     dependencies:
-      '@ohnejs/client': 0.3.0
+      '@ohnejs/client': 0.4.0
       nuxt: 4.6.2(@babel/plugin-syntax-jsx@7.29.7(@babel/core@7.29.7))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.7))(@oxc-project/types@0.155.0)(@types/node@26.0.0)(@vue/compiler-sfc@3.5.44)(acorn@8.19.0)(confbox@0.3.1)(db0@0.3.4)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(ioredis@5.11.1)(lightningcss@1.33.0)(mlly@1.8.2)(oxlint@1.89.0)(rolldown@1.2.15)(rollup-plugin-visualizer@7.1.1(rolldown@1.2.15)(rollup@4.65.1))(rollup@4.65.1)(srvx@1.0.7)(terser@5.51.2)(typescript@6.0.3)(vite@8.3.5(@types/node@26.0.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue-tsc@3.3.13(typescript@6.0.3))
       vue: 3.5.44(typescript@6.0.3)
 
